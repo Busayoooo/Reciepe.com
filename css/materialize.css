@@ -11,6 +11,12 @@
   font-weight: bold;
 }
 
+.border-effect{
+  border: solid;
+  border-left: #ffffff00;
+  border-right: #ffffff00;
+}
+
 .materialize-red-text {
   color: #e51c23 !important;
 }
@@ -8359,7 +8365,7 @@ input[type=range]::-ms-thumb {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: orangered;
 }
 
 .carousel {
