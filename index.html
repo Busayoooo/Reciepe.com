@@ -4,11 +4,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
     <title>Reciepe.com</title>
 </head>
 <body>
     <header>
-
+        <!-- navbar -->
+        <div class="navbar-fixed">
+            <nav class="white z-depth-2">
+                <div class="container ">
+                    <img width="10%" src="img/logo.png" alt="logo" class="responsive-img brand-logo">
+                    <a href="#sidenav" class="sidenav-trigger orange-text text-darken-4""><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a class="orange-text text-darken-4 bold-text" href="">Home</a>
+                        </li>
+                        <li>
+                            <a class="orange-text text-darken-4 bold-text" href="">Cakes</a>
+                        </li>
+                        <li>
+                            <a class="orange-text text-darken-4 bold-text" href="">Soups</a>
+                        </li>
+                        <li>
+                            <a class="orange-text text-darken-4 bold-text" href="">Chicken</a>
+                        </li>
+                        <li>
+                            <a class="orange-text text-darken-4 bold-text" href="">Customers</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+                <!-- Made mobile version of navbar which pops up from the side  -->
+        <ul id="sidenav" class="sidenav">
+            <li>
+                <a class="orange-text text-darken-4 bold-text" href="">Home</a>
+            </li>
+            <li>
+                <a class="orange-text text-darken-4 bold-text" href="">Cakes</a>
+            </li>
+            <li>
+                <a class="orange-text text-darken-4 bold-text" href="">Soups</a>
+            </li>
+            <li>
+                <a class="orange-text text-darken-4 bold-text" href="">Chicken</a>
+            </li>
+            <li>
+                <a class="orange-text text-darken-4 bold-text" href="">Customers</a>
+            </li>
+        </ul>
     </header>
 
     <main>
@@ -18,8 +62,25 @@
     <footer>
 
     </footer>
-    
+
     <script src="js/jquery.js"></script>
     <script src="js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.modal').modal();
+            $('.tooltipped').tooltip();
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.slider').slider({
+                indicators:false,
+                height:700,
+                interval: 15000, //The duration of the picture
+                duration: 1000 //The time interval between each picture(15secs)
+            });
+            $('.materialboxed').materialbox();
+            $('.collapsible').collapsible();
+            $(',fixed-action-btn').floating();
+        });
+    </script>
 </body>
 </html>
