@@ -6,6 +6,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
     <title>Reciepe.com</title>
+    <style>
+
+    </style>
 </head>
 <body>
     <header>
@@ -35,7 +38,7 @@
                 </div>
             </nav>
         </div>
-                <!-- Made mobile version of navbar which pops up from the side  -->
+         <!-- Made mobile version of navbar which pops up from the side  -->
         <ul id="sidenav" class="sidenav">
             <li>
                 <a class="orange-text text-darken-4 bold-text" href="">Home</a>
@@ -53,10 +56,33 @@
                 <a class="orange-text text-darken-4 bold-text" href="">Customers</a>
             </li>
         </ul>
+
+        <div class="slider ">
+            <ul class="slides">
+                <li>
+                    <img src="img/cake_fruit.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="img/shrimp_soup.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="img/chicken_3.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="img/dessert_chocolate.jpg" alt="" class="responsive-img">
+                </li>
+                <li>
+                    <img src="img/ginger_cake.webp" alt="" class="responsive-img">
+                </li>
+            </ul>
+        </div>
     </header>
 
     <main>
-
+        <div class="container">
+            <h2 class="orange-text text-darken-4">Hello there, foodies!</h2>
+            <p>you smart, you loyal, you a genius.You see the hedges, how i shaped them up? It's important you shape up your hedges too</p>
+        </div>
     </main>
 
     <footer>
@@ -70,12 +96,8 @@
             $('.modal').modal();
             $('.tooltipped').tooltip();
             $('.sidenav').sidenav();
-            $('.parallax').parallax();
             $('.slider').slider({
-                indicators:false,
-                height:700,
-                interval: 15000, //The duration of the picture
-                duration: 1000 //The time interval between each picture(15secs)
+
             });
             $('.materialboxed').materialbox();
             $('.collapsible').collapsible();
