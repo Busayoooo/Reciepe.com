@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
+    <link rel="shortcut icon" href="img/rcon.png" type="image/x-icon">
     <title>Reciepe.com</title>
     <style>
        
@@ -17,23 +17,23 @@
         <div class="navbar-fixed">
             <nav class="white z-depth-2">
                 <div class="container ">
-                    <img width="10%" src="img/logo.png" alt="logo" class="responsive-img brand-logo">
+                    <img width="140px" src="img/logo.png" alt="logo" class="responsive-img brand-logo">
                     <a href="#sidenav" class="sidenav-trigger orange-text text-darken-4"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li>
-                            <a class="orange-text text-darken-4 bold-text" href="">Home</a>
+                            <a class="orange-text text-darken-4 scrollspy bold-text" href="">Home</a>
                         </li>
                         <li>
-                            <a class="orange-text text-darken-4 bold-text" href="#cakes_session">Cakes</a>
+                            <a class="orange-text text-darken-4 scrollspy bold-text" href="#cakes_session">Cakes</a>
                         </li>
                         <li>
-                            <a class="orange-text text-darken-4 bold-text" href="#soups_session">Soups</a>
+                            <a class="orange-text text-darken-4 scrollspy bold-text" href="#soups_session">Soups</a>
                         </li>
                         <li>
-                            <a class="orange-text text-darken-4 bold-text" href="#chicken_session">Chicken</a>
+                            <a class="orange-text text-darken-4 scrollspy bold-text" href="#chicken_session">Chicken</a>
                         </li>
                         <li>
-                            <a class="orange-text text-darken-4 bold-text" href="#customers_session">Customers</a>
+                            <a class="orange-text text-darken-4 scrollspy bold-text" href="#customers_session">Customers</a>
                         </li>
                     </ul>
                 </div>
@@ -42,19 +42,19 @@
          <!-- Made mobile version of navbar which pops up from the side  -->
         <ul id="sidenav" class="sidenav">
             <li>
-                <a class="orange-text text-darken-4 bold-text" href="">Home</a>
+                <a class="orange-text text-darken-4 scrollspy bold-text" href="">Home</a>
             </li>
             <li>
-                <a class="orange-text text-darken-4 bold-text" href="#cakes_session">Cakes</a>
+                <a class="orange-text text-darken-4 scrollspy bold-text" href="#cakes_session">Cakes</a>
             </li>
             <li>
-                <a class="orange-text text-darken-4 bold-text" href="#soups_session">Soups</a>
+                <a class="orange-text text-darken-4 scrollspy bold-text" href="#soups_session">Soups</a>
             </li>
             <li>
-                <a class="orange-text text-darken-4 bold-text" href="#chicken_session">Chicken</a>
+                <a class="orange-text text-darken-4 scrollspy bold-text" href="#chicken_session">Chicken</a>
             </li>
             <li>
-                <a class="orange-text text-darken-4 bold-text" href="#customers_session">Customers</a>
+                <a class="orange-text text-darken-4 scrollspy bold-text" href="#customers_session">Customers</a>
             </li>
         </ul>
 
@@ -139,7 +139,7 @@
         </div>
 
         <!-- Collections -->
-        <div id="customers_session" class="container">
+        <div id="customers_session" class="container scrollspy">
         <h2 class="center orange-text text-darken-4">What our customers say...</h2>
             <div class="row">
                 <div class="col s12">
@@ -174,12 +174,12 @@
             </div>
         </div>
         <!-- parallax cake image -->
-       <div id="cakes_session" class="parallax-container">
-            <div class="parallax hide-on-med-and-down">
-                <img class="responsive-img " src="img/cake.jpg" alt="">
+       <div id="cakes_session" class="scrollspy hide-on-med-and-down parallax-container">
+            <div class="parallax ">
+                <img class="responsive-img" src="img/cake.jpg" alt="">
             </div>
-            <img class=" hide-on-large-only" src="img/cake.jpg" alt="">
-       </div>
+        </div>
+        <img class="responsive-img hide-on-large-only" src="img/cake.jpg" alt="">
        
 
        <!-- Cakes section -->
@@ -344,12 +344,12 @@
        </div>
 
        <!-- parallax soup image -->
-       <div id="soups_session" class="parallax-container ">
+       <div id="soups_session" class="parallax-container hide-on-med-and-down scrollspy">
            <div class="parallax">
-               <img class="responsive-img hide-on-med-and-down" src="img/soup.jpg" alt="">
+               <img class="responsive-img " src="img/soup.jpg" alt="">
             </div>
-            <img class="hide-on-large-only" src="img/soup.jpg" alt="">
         </div>
+        <img class="hide-on-large-only responsive-img" src="img/soup.jpg" alt="">
         
         
         <!-- Soups section -->
@@ -514,12 +514,12 @@
         </div>
 
         <!-- parallax Chicken image -->
-        <div id="chicken_session" class="parallax-container">
-            <div class="parallax hide-on-med-and-down">
+        <div id="chicken_session" class="parallax-container scrollspy  hide-on-med-and-down">
+            <div class="parallax ">
                 <img class="responsive-img " src="img/chicken.jpg" alt="">
             </div>
-            <img class="hide-on-large-only" src="img/chicken.jpg" alt="">
         </div>
+        <img class="hide-on-large-only responsive-img mobile" src="img/chicken.jpg" alt="">
         
 
          <!-- Chicken section -->
@@ -695,19 +695,19 @@
                     <h4 class="orange-text text-darken-4 ">Quick Links</h4>
                     <ul>
                         <li>
-                            <a class="white-text" href="">Back to top</a>
+                            <a class="white-text scrollspy" href="">Back to top</a>
                         </li>
                         <li>
-                            <a class="white-text" href="#cakes_session">Cakes</a>
+                            <a class="white-text scrollspy" href="#cakes_session">Cakes</a>
                         </li>
                         <li>
-                            <a class="white-text" href="#soups_session">Soups</a>
+                            <a class="white-text scrollspy" href="#soups_session">Soups</a>
                         </li>
                         <li>
-                            <a class="white-text" href="#chicken_session">Chicken</a>
+                            <a class="white-text scrollspy" href="#chicken_session">Chicken</a>
                         </li>
                         <li>
-                            <a class="white-text" href="#customers_session">Customers</a>
+                            <a class="white-text scrollspy" href="#customers_session">Customers</a>
                         </li>
                     </ul>
                 </div>
@@ -729,6 +729,7 @@
             $('.slider').slider({});
             $('.materialboxed').materialbox();
             $('.collapsible').collapsible();
+            $('.scrollspy').scrollSpy();
             
         });
     </script>

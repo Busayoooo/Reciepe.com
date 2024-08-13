@@ -7,11 +7,6 @@
   background-color: #e51c23 !important;
 }
 
-.mobile{
-  height: 550px;
-  max-width: 100%;
-}
-
 .bold-text{
   font-weight: bold;
 }
@@ -2833,6 +2828,7 @@ video.responsive-video {
   overflow: hidden;
   height: 550px;
 }
+
 
 .parallax-container .parallax {
   position: absolute;
